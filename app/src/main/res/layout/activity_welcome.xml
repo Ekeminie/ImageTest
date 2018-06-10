@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme1"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.android.imagetest.WelcomeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_succes"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/success"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_now"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#1144c4"/>
+
+
+
+
+
+
+
+</LinearLayout>
